@@ -1,0 +1,8 @@
+.hover {
+  font-size: 30px;
+  transition: 1s;
+}
+.hover:hover {
+  color: aqua;
+  cursor: pointer;
+}

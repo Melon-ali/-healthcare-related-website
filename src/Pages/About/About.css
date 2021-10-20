@@ -1,0 +1,21 @@
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.card-body {
+  text-align: left;
+}
+hr {
+  background-color: gray;
+  border-radius: 10px;
+  text-align: center;
+}
+.about {
+  background-color: #3c8dc5;
+  color: white;
+  padding: 20px;
+}
+.line {
+  font-weight: bold;
+}

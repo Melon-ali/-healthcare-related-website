@@ -5,11 +5,11 @@ const Doctor = ({doctor}) => {
     const {name, img, hospital} = doctor;
     return (
         <div className="col-lg-3">
-            <div class="card">
-                <img src={img} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">{name}</h5>
-                    <p class="card-text">{hospital}</p>
+            <div className="card">
+                <img src={img} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                    <h5 className="card-title">{name}</h5>
+                    <p className="card-text">{hospital}</p>
                     <button className="btn btn-info">Read More</button>
                 </div>
             </div>
