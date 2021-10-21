@@ -10,6 +10,7 @@ import Header from './Pages/Shared/Header/Header';
 import About from './Pages/About/About';
 import Services from './Pages/Home/Services/Services';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -36,9 +37,9 @@ function App() {
             <Route exact path="/doctors">
               <Doctors></Doctors>
             </Route>
-            <Route exact path="/details/:id">
+            <PrivateRoute path="/details/:id">
                 <Details></Details>
-            </Route>
+            </PrivateRoute>
             <Route exact path="*">
               <NotFound></NotFound>
             </Route>
