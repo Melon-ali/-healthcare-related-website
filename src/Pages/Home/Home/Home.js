@@ -1,8 +1,4 @@
 import React from 'react';
-import About from '../../About/About';
-import Footer from '../../Footer/Footer';
-import Doctors from '../Doctors/Doctors';
-import Services from '../Services/Services';
 import './Home.css';
 
 const Home = () => {
@@ -22,7 +18,7 @@ const Home = () => {
             </div>
             <div className="container">
                 <div>
-                    <h1 className="pa text-center">PATIENTS <span className="span">SAY ABOUT US</span></h1>
+                    <h1 className="pa text-center pt-5">PATIENTS <span className="span">SAY ABOUT US</span></h1>
                     <hr />
                     <h4 className="p-4">Starting as a blog that discusses obesity and weight loss, The Doctor Weighs In has expanded to be a valuable resource on all things healthcare—</h4>
                 </div>
